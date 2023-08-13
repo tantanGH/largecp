@@ -24,11 +24,11 @@ LARCPxxx.ZIP をダウンロードして、LARGECP.X をパスの通ったディ
 
 ## 使い方
 
-LARGECP.X - Large file copy utility version 0.1.0 by tantan
-usage: largecp [options] <src-file> <dst-path>
-options:
-    -b<n> ... buffer size in MB (1-8, default:4)
-    -h    ... show help message
+    LARGECP.X - Large file copy utility version 0.1.0 by tantan
+    usage: largecp [options] <src-file> <dst-path>
+    options:
+        -b<n> ... buffer size in MB (1-8, default:4)
+        -h    ... show help message
 
 コピー元のファイルと、コピー先のファイル名またはディレクトリ名を指定するだけです。
 ワイルドカードには対応していません。
