@@ -24,7 +24,7 @@ LARCPxxx.ZIP をダウンロードして、LARGECP.X をパスの通ったディ
 
 ## 使い方
 
-    LARGECP.X - Large file copy utility version 0.1.0 by tantan
+    LARGECP.X - Large file copy utility version 0.x.x by tantan
     usage: largecp [options] <src-file> <dst-path>
     options:
         -b<n> ... buffer size in MB (1-8, default:4)
@@ -40,4 +40,5 @@ LARCPxxx.ZIP をダウンロードして、LARGECP.X をパスの通ったディ
 
 ## 変更履歴
 
+* 0.1.1 (2023/08/20) ... SHIFTキーでのキャンセルが効かない場合があったのを修正
 * 0.1.0 (2023/08/13) ... 初版
