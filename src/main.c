@@ -179,13 +179,13 @@ int32_t main(int32_t argc, char* argv[]) {
     if (len == 0) break;
     size_t w_len = fwrite(fread_buffer, 1, len, fo);
     if (w_len != len) {
-      printf("error: file write error.\n");
+      printf("\r\nerror: file write error.\n");
       goto exit;
     }
     read_len += len;
     printf("\rCopied %d/%d bytes ... [SHIFT] to cancel", read_len, file_size);
-    if (B_SFTSNS() & 0x10) {
-      printf("\r\x1b[KAborted.\n");
+    if (B_SFTSNS() & 0x01) {
+      printf("\r\nAborted.\n");
       goto exit;
     }
   } while (read_len < file_size);
